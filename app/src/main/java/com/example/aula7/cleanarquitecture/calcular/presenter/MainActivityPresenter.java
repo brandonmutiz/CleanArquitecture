@@ -1,0 +1,11 @@
+package com.example.aula7.cleanarquitecture.calcular.presenter;
+
+/**
+ * Created by AULA 7 on 15/05/2018.
+ */
+
+public interface MainActivityPresenter {
+    void showResult(String result);
+    void showError(String error);
+    void suma(String num1,String num2);
+}
